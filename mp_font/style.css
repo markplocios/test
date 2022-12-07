@@ -1,0 +1,117 @@
+@font-face {
+  font-family: 'Mark_Icon';
+  src:  url('Mark_Icon.eot?c270hi');
+  src:  url('Mark_Icon.eot?c270hi#iefix') format('embedded-opentype'),
+    url('Mark_Icon.ttf?c270hi') format('truetype'),
+    url('Mark_Icon.woff?c270hi') format('woff'),
+    url('Mark_Icon.svg?c270hi#Mark_Icon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+@font-face {
+  font-family: 'Barabara';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Barabara'), url('barabara-unicode-webfont.woff2') format('woff2');
+  } 
+@font-face {
+  font-family: 'alibata';
+  font-style: normal;
+  font-weight: normal;
+  src: local('alibata'), url('TagDoc93.ttf') format('truetype');
+  
+}  
+[class^="mp-"], [class*=" mp-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'Mark_Icon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.mp-pasta:before {
+  content: "\e914";
+}
+.mp-kayumanggi_logo:before {
+  content: "\e900";
+}
+.mp-arrow_back_v:before {
+  content: "\e906";
+}
+.mp-forklift:before {
+  content: "\e907";
+  color: rgb(0, 0, 0);
+}
+.mp-forklift:after {
+  content: "\e908";
+  margin-left: -1.115234375em;
+  color: rgb(0, 0, 0);
+  opacity: 0.85;
+}
+.mp-history_icon:before {
+  content: "\e909";
+}
+.mp-icon_change_pass:before {
+  content: "\e903";
+}
+.mp-icon_relay:before {
+  content: "\e90d";
+}
+.mp-icon_relay_add:before {
+  content: "\e90e";
+}
+.mp-icon_relay_add_v2:before {
+  content: "\e902";
+}
+.mp-icon_revision:before {
+  content: "\e90c";
+}
+.mp-icon_survey_ns:before {
+  content: "\e90a";
+}
+.mp-icon_survey_v5 .path1:before {
+  content: "\e90b";
+  color: rgb(0, 0, 0);
+}
+.mp-icon_survey_v5 .path2:before {
+  content: "\e90f";
+  margin-left: -1.115234375em;
+  color: rgb(0, 0, 0);
+}
+.mp-icon_survey_v5 .path3:before {
+  content: "\e910";
+  margin-left: -1.115234375em;
+  color: rgb(0, 0, 0);
+}
+.mp-icon_survey_v5 .path4:before {
+  content: "\e911";
+  margin-left: -1.115234375em;
+  color: rgb(0, 0, 0);
+  opacity: 0.5;
+}
+.mp-in_box:before {
+  content: "\e904";
+}
+.mp-mysterious_man:before {
+  content: "\e901";
+  color: rgb(0, 0, 0);
+  opacity: 0.9;
+}
+.mp-mysterious_man:after {
+  content: "\e905";
+  margin-left: -0.943359375em;
+  color: rgb(0, 0, 0);
+}
+.mp-out_box:before {
+  content: "\e912";
+}
+.mp-qis_logo_vasd:before {
+  content: "\e913";
+}
